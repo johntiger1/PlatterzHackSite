@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if list_of_toppings %}
+    <ul>
+    {% for topping in list_of_toppings %}
+        <li><a href="/inner_pizza/detail/{{ topping.id }}">{{ topping.topping_name}}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No toppings are available.</p>
+{% endif %}
+</body>
+</html>
