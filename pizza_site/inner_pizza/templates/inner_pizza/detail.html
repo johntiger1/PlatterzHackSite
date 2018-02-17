@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>topping likes {{ topping.topping_upvotes }}</h1>
+<h1>topping dislikes {{ topping.topping_downvotes }}</h1>
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<form action="{% url 'inner_pizza:vote' topping.id %}" method="post">
+{% csrf_token %}
+    <input type="radio" name="choice" id="yes" value="Like" /> Like <br>
+    <input type="radio" name="choice" id="no" value="Dislike" /> Dislike <br>
+
+<input type="submit" value="Vote" />
+</form>
+</body>
+</html>
