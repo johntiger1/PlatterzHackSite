@@ -1,7 +1,7 @@
 from django.urls import path
 
 from . import views
-
+app_name = "inner_pizza"
 urlpatterns = [
     path('index', views.index, name='index'),
     path('more_pizza', views.another_req, name="more_piz"),

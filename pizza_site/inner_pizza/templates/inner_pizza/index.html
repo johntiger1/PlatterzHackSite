@@ -8,7 +8,7 @@
 {% if list_of_toppings %}
     <ul>
     {% for topping in list_of_toppings %}
-        <li><a href="/inner_pizza/detail/{{ topping.id }}">{{ topping.topping_name}}</a></li>
+        <li><a href="{% url 'inner_pizza:topping_detail' topping.id %}">{{ topping.topping_name}}</a></li>
     {% endfor %}
     </ul>
 {% else %}
