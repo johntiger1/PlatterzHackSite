@@ -12,6 +12,18 @@ the prompt is different, and all actions you take are run in the context of that
 Hence, you can install packages, etc. without worrying about existing dependencies/counter-dependencies (things that prevent something
 from being installed) 
 
+List:
+
+pyenv = just used for different python versions
+
+virtualenv = used for different sets of packages
+
+pip = just a python package manager
+
+Apparently `conda` supersedes virtualenv, so definitely look into that
+
+https://stackoverflow.com/questions/34398676/does-conda-replace-the-need-for-virtualenv
+
 2. django girls is really an OP guide
 3. sqlite db are essentially files that can be transported.
 4. worked through a real live "migration" => putting stuff on the db
