@@ -10,3 +10,6 @@ Lessons learnt on my end:
 4. worked through a real live "migration" => putting stuff on the db
 5. found django to be a bit finicky, due to how coupled everything is => trying to merge two django sites together
 6. something about the routing...
+7. it is really easy to add users and authentication/sign up to the app!
+
+Where is the bing image search stuff? it was moved to the AngularJS/frontend part
