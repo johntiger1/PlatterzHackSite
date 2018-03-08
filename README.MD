@@ -31,6 +31,10 @@ Also: Python IDLE => IPython
 anyway: ipython notebook eventually became jupyter notebook
 the notebook pioneered some concepts like latex/markdown in code; code as data etc. 
 
+
+This is pretty neat actually: indeed people HAVE written books in (ipython [notebook])!
+https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
+
 2. django girls is really an OP guide
 3. sqlite db are essentially files that can be transported.
 4. worked through a real live "migration" => putting stuff on the db
@@ -39,3 +43,4 @@ the notebook pioneered some concepts like latex/markdown in code; code as data e
 7. it is really easy to add users and authentication/sign up to the app!
 
 Where is the bing image search stuff? it was moved to the AngularJS/frontend part
+
