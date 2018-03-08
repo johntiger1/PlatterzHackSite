@@ -23,6 +23,11 @@ pip = just a python package manager
 Apparently `conda` supersedes virtualenv, so definitely look into that
 
 https://stackoverflow.com/questions/34398676/does-conda-replace-the-need-for-virtualenv
+(yes: conda is both an environment AND package manager)
+
+
+Also: Python IDLE => IPython
+(Ipython is a better shell/terminal for python) 
 
 2. django girls is really an OP guide
 3. sqlite db are essentially files that can be transported.
