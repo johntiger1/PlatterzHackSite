@@ -28,6 +28,8 @@ https://stackoverflow.com/questions/34398676/does-conda-replace-the-need-for-vir
 
 Also: Python IDLE => IPython
 (Ipython is a better shell/terminal for python) 
+anyway: ipython notebook eventually became jupyter notebook
+the notebook pioneered some concepts like latex/markdown in code; code as data etc. 
 
 2. django girls is really an OP guide
 3. sqlite db are essentially files that can be transported.
